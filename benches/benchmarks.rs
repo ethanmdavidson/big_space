@@ -190,7 +190,7 @@ fn spatial_hashing(c: &mut Criterion) {
         });
     });
 
-    // let parent = app .world_mut() .query::<&GridHash>() .get(app.world(), ent)
+    // let parent = app .world_mut() .query::<&CellId>() .get(app.world(), ent)
     //     .unwrap(); let map = app.world().resource::<CellLookup>(); let entry =
     //     map.get(parent).unwrap();
 
